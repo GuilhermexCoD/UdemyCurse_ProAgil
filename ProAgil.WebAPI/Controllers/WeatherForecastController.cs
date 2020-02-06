@@ -12,7 +12,7 @@ using ProAgil.WebAPI.Model;
 namespace ProAgil.WebAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/values")]
     public class WeatherForecastController : ControllerBase
     {
         public readonly DataContext _context;
